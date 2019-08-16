@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yiyo\\Desktop\\U\\2019 - 2°Semestre\\POO\\Laboratorios\\Solucion Lab 1\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj": {}
+    "C:\\Users\\Yiyo\\Desktop\\laboratorio-02-jmiturralde\\Solucion Lab 1\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yiyo\\Desktop\\U\\2019 - 2°Semestre\\POO\\Laboratorios\\Solucion Lab 1\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj": {
+    "C:\\Users\\Yiyo\\Desktop\\laboratorio-02-jmiturralde\\Solucion Lab 1\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yiyo\\Desktop\\U\\2019 - 2°Semestre\\POO\\Laboratorios\\Solucion Lab 1\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj",
+        "projectUniqueName": "C:\\Users\\Yiyo\\Desktop\\laboratorio-02-jmiturralde\\Solucion Lab 1\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj",
         "projectName": "Laboratorio_1_OOP_201902",
-        "projectPath": "C:\\Users\\Yiyo\\Desktop\\U\\2019 - 2°Semestre\\POO\\Laboratorios\\Solucion Lab 1\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj",
+        "projectPath": "C:\\Users\\Yiyo\\Desktop\\laboratorio-02-jmiturralde\\Solucion Lab 1\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj",
         "packagesPath": "C:\\Users\\Yiyo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yiyo\\Desktop\\U\\2019 - 2°Semestre\\POO\\Laboratorios\\Solucion Lab 1\\Laboratorio_1_OOP_201902\\obj\\",
+        "outputPath": "C:\\Users\\Yiyo\\Desktop\\laboratorio-02-jmiturralde\\Solucion Lab 1\\Laboratorio_1_OOP_201902\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

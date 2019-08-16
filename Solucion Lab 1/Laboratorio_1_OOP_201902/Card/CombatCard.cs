@@ -4,59 +4,30 @@ using System.Text;
 
 namespace Laboratorio_1_OOP_201902.Card
 {
-    public class CombatCard
+    public class CombatCard :Card
     {
         //Atributos
-        private string name;
-        private string type;
-        private string effect;
+
+        protected const int DEFAULT_ATTACKPOINTS = 1;
+        protected const bool DEFAULT_HERO = false;
+
         private int attackPoints;
         private bool hero;
 
         //Constructor
-        public CombatCard(string name, string type, string effect, int attackPoints, bool hero)
+        public CombatCard() : this(DEFAULT_NAME, DEFAULT_TYPE) { }
+
+        public CombatCard(string name, string type) : this(name, type, DEFAULT_EFFECT)
         {
-            Name = name;
-            Type = type;
-            Effect = effect;
-            AttackPoints = attackPoints;
-            Hero = hero;
+        }
+        public CombatCard(string name, string type, string effect) : base(name, type, effect)
+        {
+            AttackPoints = DEFAULT_ATTACKPOINTS;
+            Hero = DEFAULT_HERO;
         }
 
         //Propiedades
-        public string Name
-        {
-            get
-            {
-                return this.name;
-            }
-            set
-            {
-                this.name = value;
-            }
-        }
-        public string Type
-        {
-            get
-            {
-                return this.type;
-            }
-            set
-            {
-                this.type = value;
-            }
-        }   
-        public string Effect
-        {
-            get
-            {
-                return this.effect;
-            }
-            set
-            {
-                this.effect = value;
-            }
-        }
+
         public int AttackPoints
         {
             get

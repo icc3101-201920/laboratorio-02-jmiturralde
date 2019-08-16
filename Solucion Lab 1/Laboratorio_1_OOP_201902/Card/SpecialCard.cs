@@ -4,46 +4,25 @@ using System.Text;
 
 namespace Laboratorio_1_OOP_201902.Card
 {
-    public class SpecialCard
+    public class SpecialCard : Card
     {
-        //Atributos
-        private string name;
-        private string type;
+        protected const string DEFAULT_BUFFTYPE = "BUFFTYPE";
+
         private string buffType;
-        private string effect;
+
+
 
         //Constructor
-        public SpecialCard(string name, string type, string effect)
+        public SpecialCard() : this(DEFAULT_NAME, DEFAULT_TYPE) { }
+
+        public SpecialCard(string name, string type) : this(name, type, DEFAULT_EFFECT)
         {
-            Name = name;
-            Type = type;
-            Effect = effect;
-            BuffType = null;
+        }
+        public SpecialCard(string name, string type, string effect) : base(name, type, effect)
+        {
+            BuffType = DEFAULT_BUFFTYPE;
         }
 
-        //Propiedades
-        public string Name
-        {
-            get
-            {
-                return this.name;
-            }
-            set
-            {
-                this.name = value;
-            }
-        }
-        public string Type
-        {
-            get
-            {
-                return this.type;
-            }
-            set
-            {
-                this.type = value;
-            }
-        }
         //Propiedades
         public string BuffType
         {
@@ -56,17 +35,7 @@ namespace Laboratorio_1_OOP_201902.Card
                 this.buffType = value;
             }
         }
-        public string Effect
-        {
-            get
-            {
-                return this.effect;
-            }
-            set
-            {
-                this.effect = value;
-            }
-        }
+       
 
 
     }
